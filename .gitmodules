@@ -1,0 +1,3 @@
+[submodule "Backbone/DINO/dinov3"]
+	path = Backbone/DINO/dinov3
+	url = https://github.com/facebookresearch/dinov3.git

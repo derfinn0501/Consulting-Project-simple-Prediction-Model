@@ -1,3 +1,14 @@
+### Data
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.rdata
+
+
+
+
 # Local .terraform directories
 .terraform/
 

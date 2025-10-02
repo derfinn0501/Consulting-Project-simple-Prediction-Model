@@ -522,6 +522,7 @@ chest_tube_prediction_df <- chest_tube_prediction_df %>% select("patient_id",
                                                                 "X_max_AIS_head",
                                                                 "X_max_AIS_face",
                                                                 "X_max_AIS_throat",
+                                                                "X_max_AIS_thorax",
                                                                 "X_max_AIS_abdomen",
                                                                 "X_max_AIS_pelvis",
                                                                 "X_max_AIS_spine",
@@ -557,8 +558,8 @@ chest_tube_prediction_df <- chest_tube_prediction_df %>% select("patient_id",
                                                                 "X_Elixhauser",
                                                                 "X_TTSS",
                                                                 "X_age_grouped")
-write_xlsx(clean_data, "full_data_cleaned.xlx")
-write_xlsx(chest_tube_prediction_df, "full_data_chest_tube_prediction.xlsx")
+write_xlsx(clean_data, "../data/full_data_cleaned.xlsx")
+write_xlsx(chest_tube_prediction_df, "../data/full_data_chest_tube_prediction.xlsx")
 
 
 
